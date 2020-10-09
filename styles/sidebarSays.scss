@@ -1,8 +1,12 @@
-body {
+.parent {
   display: grid;
   grid-template-columns: minmax(150px, 25%) 1fr;
   padding: 0;
   margin: 0;
+  font-family: system-ui, serif;
+
+  resize: both;
+  overflow: auto;
 }
 
 .sidebar {
@@ -16,8 +20,4 @@ body {
 
 .content {
   padding: 2rem;
-}
-
-body {
-  font-family: system-ui, serif;
 }

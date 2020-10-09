@@ -1,6 +1,8 @@
 .parent {
   display: flex;
   flex-wrap: wrap;
+  resize: both;
+  overflow: auto;
 }
 
 .child {

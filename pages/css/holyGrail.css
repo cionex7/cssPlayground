@@ -1,7 +1,9 @@
-body {
+.parent {
   display: grid;
   height: 100vh;
   grid-template: auto 1fr auto/auto 1fr auto;
+  resize: both;
+  overflow: auto;
 }
 
 header {
