@@ -1,0 +1,16 @@
+{
+  "name": "cssplayground",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "style": "sass --watch styles:pages/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cionex7/cssPlayground.git"
+  },
+  "author": "JackalFan",
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
+}
