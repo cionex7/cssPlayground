@@ -8,16 +8,20 @@
 }
 
 header {
-  background: lightpink;
-  padding: 2rem;
+  background: rgb(169, 226, 234);
+  padding: 16px;
+  border: 1px dashed;
 }
 
 main {
-  background: coral;
+  background: rgb(247, 200, 171);
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  padding: 16px;
 }
 
 footer {
-  background: wheat;
-  padding: 2rem;
-  text-align: center;
+  background: rgb(223, 211, 228);
+  padding: 16px;
+  border: 1px dashed;
 }

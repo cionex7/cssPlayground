@@ -7,40 +7,43 @@
 }
 
 header {
-  background: lightpink;
-  padding: 2rem;
+  background: #f5e0e9;
+  border: 1px dashed;
+  padding: 16px;
   grid-column: 1/4;
 }
 
 .left-sidebar {
-  background: lightblue;
+  background: #a9e2ea;
+  border-left: 1px dashed;
+  padding: 16px;
   grid-column: 1/2;
 }
 
 main {
-  background: coral;
+  background: #f7c8ab;
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  padding: 16px;
   grid-column: 2/3;
 }
 
 .right-sidebar {
-  background: yellow;
+  background: #fee8b4;
+  border-right: 1px dashed;
+  padding: 16px;
   grid-column: 3/4;
 }
 
 footer {
-  background: wheat;
-  padding: 2rem;
-  text-align: center;
+  background: #d4f2c4;
+  padding: 16px;
   grid-column: 1/4;
+  border: 1px dashed;
 }
 
 body {
   font-family: system-ui, sans-serif;
-}
-
-.left-sidebar,
-.right-sidebar {
-  padding: 1rem;
 }
 
 /*# sourceMappingURL=holygrail.css.map */

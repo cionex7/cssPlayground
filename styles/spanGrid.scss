@@ -13,21 +13,29 @@ div {
 }
 
 .span-12 {
-  background: lightpink;
+  background: rgb(212, 242, 196);
   grid-column: 1 / 13;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-6 {
-  background: lightblue;
+  background: rgb(245, 224, 233);
   grid-column: 1 / 7;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-4 {
-  background: coral;
+  background: rgb(169, 226, 234);
   grid-column: 4 / 9;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-2 {
-  background: yellow;
+  background: rgb(247, 200, 171);
   grid-column: 3 / 5;
+  border: 1px dashed;
+  padding: 16px;
 }

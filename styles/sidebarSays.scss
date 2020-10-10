@@ -11,13 +11,17 @@
 
 .sidebar {
   height: 100vh;
-  
-  //   etc.
-  background: lightpink;
-  font-size: 2rem;
+  background: rgb(254, 232, 180);
+  border: 1px dashed;
+  font-size: 16px;
+  padding: 16px;
   text-align: center;
 }
 
 .content {
-  padding: 2rem;
+  background: rgb(223, 211, 228);
+  border: 1px dashed;
+  border-left: none;
+  font-size: 16px;
+  padding: 16px;
 }

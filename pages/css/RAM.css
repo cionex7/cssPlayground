@@ -1,8 +1,7 @@
 .parent {
   display: grid;
-  height: 100vh;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   font-family: system-ui, sans-serif;
   resize: both;
   overflow: auto;
@@ -11,7 +10,10 @@
 div {
   display: grid;
   place-items: center;
-  background: lightpink;
+  background: #d4f2c4;
+  padding: 16px;
+  border: 1px dashed;
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=ram.css.map */

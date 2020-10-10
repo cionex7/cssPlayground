@@ -1,7 +1,7 @@
 .parent {
   display: grid;
   place-items: center;
-  background: lightblue;
+  background: #a9e2ea;
   width: 500px;
   height: 500px;
   resize: both;
@@ -9,11 +9,11 @@
 }
 
 .child {
-  padding: 0.5rem;
-  border-radius: 10px;
-  border: 1px solid red;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px dashed red;
   background: lightpink;
-  font-size: 2rem;
+  font-size: 16px;
   text-align: center;
 }
 

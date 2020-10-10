@@ -10,13 +10,19 @@
 
 .sidebar {
   height: 100vh;
-  background: lightpink;
-  font-size: 2rem;
+  background: #fee8b4;
+  border: 1px dashed;
+  font-size: 16px;
+  padding: 16px;
   text-align: center;
 }
 
 .content {
-  padding: 2rem;
+  background: #dfd3e4;
+  border: 1px dashed;
+  border-left: none;
+  font-size: 16px;
+  padding: 16px;
 }
 
 /*# sourceMappingURL=sidebarsays.css.map */

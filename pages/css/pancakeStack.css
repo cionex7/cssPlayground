@@ -8,18 +8,22 @@
 }
 
 header {
-  background: lightpink;
-  padding: 2rem;
+  background: #a9e2ea;
+  padding: 16px;
+  border: 1px dashed;
 }
 
 main {
-  background: coral;
+  background: #f7c8ab;
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  padding: 16px;
 }
 
 footer {
-  background: wheat;
-  padding: 2rem;
-  text-align: center;
+  background: #dfd3e4;
+  padding: 16px;
+  border: 1px dashed;
 }
 
 /*# sourceMappingURL=pancakestack.css.map */

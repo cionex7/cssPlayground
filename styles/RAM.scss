@@ -1,8 +1,8 @@
 .parent {
   display: grid;
-  height: 100vh;
+  // height: 100vh;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   font-family: system-ui, sans-serif;
 
   resize: both;
@@ -12,5 +12,8 @@
 div {
   display: grid;
   place-items: center;
-  background: lightpink;
+  background: rgb(212, 242, 196);
+  padding: 16px;
+  border: 1px dashed;
+  border-radius: 16px;
 }

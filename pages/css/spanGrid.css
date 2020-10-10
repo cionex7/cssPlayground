@@ -13,23 +13,31 @@ div {
 }
 
 .span-12 {
-  background: lightpink;
+  background: #d4f2c4;
   grid-column: 1/13;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-6 {
-  background: lightblue;
+  background: #f5e0e9;
   grid-column: 1/7;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-4 {
-  background: coral;
+  background: #a9e2ea;
   grid-column: 4/9;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 .span-2 {
-  background: yellow;
+  background: #f7c8ab;
   grid-column: 3/5;
+  border: 1px dashed;
+  padding: 16px;
 }
 
 /*# sourceMappingURL=spangrid.css.map */

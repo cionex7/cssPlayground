@@ -8,38 +8,41 @@
 }
 
 header {
-  background: lightpink;
-  padding: 2rem;
+  background: rgb(245, 224, 233);
+  border: 1px dashed;
+  padding: 16px;
   grid-column: 1 / 4;
 }
 
 .left-sidebar {
-  background: lightblue;
+  background: rgb(169, 226, 234);
+  border-left: 1px dashed;
+  padding: 16px;
   grid-column: 1 / 2;
 }
 
 main {
-  background: coral;
+  background: rgb(247, 200, 171);
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  padding: 16px;
   grid-column: 2 / 3;
 }
 
 .right-sidebar {
-  background: yellow;
+  background: rgb(254, 232, 180);
+  border-right: 1px dashed;
+  padding: 16px;
   grid-column: 3 / 4;
 }
 
 footer {
-  background: wheat;
-  padding: 2rem;
-  text-align: center;
+  background: rgb(212, 242, 196);
+  padding: 16px;
   grid-column: 1 / 4;
+  border: 1px dashed;
 }
 
 body {
   font-family: system-ui, sans-serif;
-}
-
-.left-sidebar,
-.right-sidebar {
-  padding: 1rem;
 }
