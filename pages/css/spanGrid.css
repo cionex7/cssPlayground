@@ -1,12 +1,15 @@
-body {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: repeat(12, 1fr);
-}
-
 div {
   display: grid;
   place-items: center;
+}
+
+.parent {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: system-ui, sans-serif;
+  resize: both;
+  overflow: auto;
 }
 
 .span-12 {
@@ -27,10 +30,6 @@ div {
 .span-2 {
   background: yellow;
   grid-column: 3/5;
-}
-
-body {
-  font-family: system-ui, sans-serif;
 }
 
 /*# sourceMappingURL=spangrid.css.map */

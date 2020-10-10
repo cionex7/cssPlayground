@@ -1,7 +1,10 @@
-body {
+.parent {
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
+  font-family: system-ui, sans-serif;
+  resize: both;
+  overflow: auto;
 }
 
 header {
@@ -17,10 +20,6 @@ footer {
   background: wheat;
   padding: 2rem;
   text-align: center;
-}
-
-body {
-  font-family: system-ui, sans-serif;
 }
 
 /*# sourceMappingURL=pancakestack.css.map */

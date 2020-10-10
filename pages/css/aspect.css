@@ -1,7 +1,10 @@
-body {
+.parent {
   display: grid;
   place-items: center;
   height: 100vh;
+  font-family: system-ui, sans-serif;
+  resize: both;
+  overflow: auto;
 }
 
 .visual {
@@ -16,10 +19,6 @@ body {
   flex-direction: column;
   background: lightpink;
   padding: 1rem;
-}
-
-body {
-  font-family: system-ui, sans-serif;
 }
 
 h1 {

@@ -1,7 +1,10 @@
-body {
+.parent {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+  font-family: system-ui, sans-serif;
+  resize: both;
+  overflow: auto;
 }
 
 .visual {
@@ -17,10 +20,6 @@ body {
   justify-content: space-between;
   background: lightpink;
   padding: 1rem;
-}
-
-body {
-  font-family: system-ui, sans-serif;
 }
 
 h1 {
