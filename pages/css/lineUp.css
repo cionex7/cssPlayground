@@ -19,11 +19,11 @@
   flex-direction: column;
   justify-content: space-between;
   background: lightpink;
-  padding: 1rem;
+  padding: 16px;
 }
 
-h1 {
-  font-size: 1.5rem;
+p, h3 {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=lineup.css.map */
